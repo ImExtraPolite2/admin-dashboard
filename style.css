@@ -57,5 +57,39 @@
 }
 
 .header-top {
-  margin: auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-top: 10px;
+}
+
+.header-top-left > input {
+  border: none;
+  background-color: lightgray;
+  border-radius: 20px;
+  width: 90%;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.header-top-left {
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.header-top-right {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.header-top-right > img:nth-child(2) {
+  border-radius: 50px;
+}
+
+.header-bottom {
+  display: grid;
+  grid-template-columns: 1fr 11fr 3fr;
+  margin: 15px 0 0 30px;
 }

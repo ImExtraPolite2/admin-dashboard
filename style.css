@@ -150,5 +150,34 @@
 .main-content-right {
   margin-left: 20px;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 0.75fr 1fr;
+}
+
+.main-content-right-top > div, .main-content-right-bottom > div {
+  padding: 20px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.main-content-right-top > div > div > p, .main-content-right-bottom > div > div > div > p {
+  font-size: 0.7em;
+}
+
+.main-content-right-top > div > hr {
+  margin: 10px 0;
+}
+
+.main-content-right-bottom > div > div {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+}
+
+.main-content-right-bottom > div > div > div {
+  margin: 5px 0;
+}
+
+.main-content-right-bottom > div > div > div > img {
+  border-radius: 20px;
 }
